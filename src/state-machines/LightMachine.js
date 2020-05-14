@@ -6,7 +6,7 @@ const lightMachine = createMachine({
   states: {
     red: { on: { changeLight: 'green'} },
     green: { on: { changeLight: 'yellow'} },
-    yellow: { on: { changeLIght: 'red'} }
+    yellow: { on: { changeLight: 'red'} },
   }
 });
 
